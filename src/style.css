@@ -1,0 +1,143 @@
+/* =========================
+   共通スタイル
+========================= */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* =========================
+   フォーム画面
+========================= */
+
+form {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+#gender,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* =========================
+   ボタン共通
+========================= */
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 24px;
+}
+
+/* フォーム送信ボタン */
+
+button {
+  background-color: #0053ba;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #0053ba;
+}
+
+/* =========================
+   確認画面
+========================= */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.confirmation-item label {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.confirmation-item p {
+  margin: 0;
+  color: #333;
+}
+
+/* =========================
+   エラーメッセージ
+========================= */
+
+.error-message {
+  color: #d32f2f;
+  background-color: #ffebee;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 20px 0;
+  border-left: 4px solid #d32f2f;
+}
+
+/* =========================
+   確認画面ボタン
+========================= */
+
+.button-group {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.back-button {
+  background-color: #f5f5f5;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
